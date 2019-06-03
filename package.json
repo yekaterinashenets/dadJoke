@@ -1,0 +1,19 @@
+{
+  "name": "dad_joke",
+  "version": "1.0.0",
+  "description": "Dad joke api command line tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "dadJoke": "./app.js",
+    "advancedDadJoke": "./advancedApp.js"
+  },
+  "author": "Ekaterina Shenets",
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
